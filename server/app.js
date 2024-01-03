@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(cors(
   {
     origin: ['https://airservices.vercel.app'],
-    method: ['POST', 'GET'],
+    methods: ['POST', 'GET'],
     credentials: true
   }
 ));
