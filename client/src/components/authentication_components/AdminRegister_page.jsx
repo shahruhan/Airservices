@@ -29,7 +29,6 @@ const AdminRegister_page = () => {
 	                    Accept: "application/json",
 	                    "Content-Type": "application/json"
 	                },
-                 		credentials: 'include',
 			body: JSON.stringify({
 				name, email, contact, password, conPassword
 			})
