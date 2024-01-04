@@ -7,7 +7,6 @@
       "localhost",
       ".localhost"
     ],
-    
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
