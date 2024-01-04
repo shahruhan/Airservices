@@ -5,7 +5,8 @@
   "options": {
     "allowedHosts": [
       "localhost",
-      ".localhost"
+      ".localhost",
+      "https://airservices-server.vercel.app"
     ],
     "proxy": "https://airservices-server.vercel.app"
   },
