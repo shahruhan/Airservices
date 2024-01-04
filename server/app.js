@@ -27,7 +27,7 @@ app.use(require('./router/auth'));
 
 // const PORT = process.env.PORT || 5000;
 
-const PORT = 'https://airservices-server.vercel.app';
+const PORT = 'airservices-server.vercel.app';
 
 
 // *************Routers of express******************
