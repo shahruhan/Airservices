@@ -21,7 +21,7 @@ const unlinkProm = promisify(fs.unlink);
 
 
 router.get('/', (req, res) =>{
-  res.send("Hello");
+  res.send("Hello new world");
 });
  
 //------- Admin Registration Module-----------
