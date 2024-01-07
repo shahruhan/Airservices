@@ -6,7 +6,7 @@
     "scripts": {
        
         "test": "echo \"No test specified\" && exit 1",
-        "start": "node server/app.js",
+        "start": "node /server/app.js",
         "client": "npm start --prefix client"
     },
     "repository": {
