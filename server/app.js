@@ -20,11 +20,20 @@ app.use(cors(
   }
 ));
 
-app.use(express.static(path.join(__dirname, './client/build')));
+// app.use(express.static(path.join(__dirname, './client/build')));
 
-app.get('*', (res, req) => {
-  res.sendFile(path.join(__dirname, './client/build/index.html'));
-});
+// app.get('*', (res, req) => {
+//   res.sendFile(path.join(__dirname, './client/build/index.html'));
+// });
+
+if( process.env.NODE_ENV == "production"){
+    app.use(express.static(path.join(__dirname, './client/build')));
+
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    });
+
+}
 
 // ************ Link the router file ************
 app.use(require('./router/auth'));
