@@ -2,6 +2,7 @@
     "name": "Airservices",
     "version": "1.0.0",
     "description": "",
+    "main": "app.js",
     "scripts": {
        
         "test": "echo \"No test specified\" && exit 1",
