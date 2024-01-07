@@ -6,8 +6,8 @@
     "scripts": {
        
         "test": "echo \"No test specified\" && exit 1",
-        "start": "node app.js",
-        "client": "npm start --prefix client"
+        "start": "node app.js"
+        
     },
     "repository": {
         "type": "git",
