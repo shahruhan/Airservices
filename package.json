@@ -6,7 +6,6 @@
     "scripts": {
        
         "test": "echo \"No test specified\" && exit 1",
-        "dev": "node -r dotenv/config server/app.js",
         "start": "node server/app.js"
         
     },
