@@ -20,8 +20,8 @@ app.use(cors(
   }
 ));
 
-router.get('/', (req, res) =>{
-  res.send("Hello");
+router.get('/hello', (req, res) =>{
+  res.send("Hello world at port 5000");
 });
 
 app.use(express.static(path.join(__dirname, './client/build')));
